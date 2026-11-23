@@ -1,0 +1,14 @@
+# Names (and any other words) to treat as personal data.
+# One per line. Blank lines and lines starting with # are ignored.
+# Matching is case-insensitive and whole-word. List full names and first
+# names both if you want either matched. Longer entries are matched first,
+# so "Mary Jane" is replaced as one code before "Mary".
+#
+# This example file is safe to commit. Your REAL list is not - keep it out
+# of git (the .gitignore already ignores names.txt and *.local.txt).
+#
+# Example:
+# Thandiwe Mokoena
+# Thandiwe
+# Sipho Dlamini
+# Sipho

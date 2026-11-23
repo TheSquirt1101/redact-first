@@ -1,0 +1,17 @@
+{
+  "//": "Copy the hooks block into your .claude/settings.json (project or user level).",
+  "//names": "Optional: set REDACT_NAMES to a names-list file to also flag those names.",
+  "//block": "Optional: set REDACT_BLOCK=1 to stop the prompt instead of just warning.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /absolute/path/to/redact-first/claude-code/hooks/pii-check.js"
+          }
+        ]
+      }
+    ]
+  }
+}

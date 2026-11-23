@@ -1,0 +1,18 @@
+# The whole point: keep real people's data and the code<->value mapping OFF git.
+*.map.json
+*.redacted.txt
+*.decoded.txt
+
+# Real name lists (the example one is committed; real ones are not)
+names.txt
+*.local.txt
+
+# Anything a user drops in to process
+inbox/
+data/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
